@@ -15,6 +15,9 @@ No te pierdas mis futuros proyectos que ayudarán a tus proyectos en Unity.
 
 Este repositorio contiene un script de C# diseñado para Unity (versión 2021.3.15f1 o superior) que permite a los desarrolladores seleccionar y ajustar el framerate (FPS) de su juego de manera sencilla. Con este script, puedes ofrecer a los jugadores la opción de cambiar entre diferentes configuraciones de FPS a través de un menú desplegable en la UI.
 
+![FPS Selector Script en el Inspector](images/fps_selector_script.png)
+*Vista del script FPS Selector en el Inspector de Unity*
+
 ## Características
 - **Selección de FPS**: Los jugadores pueden elegir entre 30, 60, 120 FPS o desbloquear el FPS.
 - **Integración Sencilla**: Fácil de integrar en cualquier proyecto de Unity.
@@ -30,6 +33,18 @@ Este repositorio contiene un script de C# diseñado para Unity (versión 2021.3.
 4. **Configurar el Dropdown en la UI**:
    - En tu escena, añade un componente `TMP_Dropdown` a la UI.
    - En el inspector, asigna el `TMP_Dropdown` al campo `fpsDropdown` en el script `FPSSelector`.
+
+## Configuración en el Inspector
+
+Para que el script funcione correctamente, asegúrate de configurar los siguientes valores en el Inspector:
+
+![Configuración del FPS Selector en el Inspector](images/fps_selector_config.png)
+*Configuración necesaria para el FPS Selector en el Inspector de Unity*
+
+1. **FPS Dropdown**: Asigna aquí tu TMP_Dropdown de la UI.
+2. **Selected FPS**: Este valor se actualizará automáticamente según la selección del usuario.
+3. **Default FPS**: Establece el FPS por defecto (por ejemplo, 60).
+4. **Save Key**: Nombre de la clave para guardar la configuración de FPS (por ejemplo, "SelectedFPS").
 
 ## Uso
 
