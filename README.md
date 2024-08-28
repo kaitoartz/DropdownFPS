@@ -41,9 +41,102 @@ Este repositorio contiene un script de C# diseñado para Unity (versión 2021.3.
    - Los jugadores pueden seleccionar un valor diferente en el dropdown.
    - Para aplicar la nueva configuración de FPS, llama al método `ApplyFPSSetting()` desde el script.
 
-## Personalización
+## Personalización y Uso Avanzado
 
-Puedes modificar el script para añadir o eliminar opciones de FPS según las necesidades de tu proyecto. Simplemente ajusta los métodos `GetFPSFromDropdownIndex` y `GetDropdownIndexFromFPS` en el script.
+### Modificar las opciones de FPS disponibles
+
+Puedes cambiar las opciones de FPS disponibles modificando los métodos `GetFPSFromDropdownIndex` y `GetDropdownIndexFromFPS`. Por ejemplo, si quieres añadir una opción de 90 FPS:
+
+```csharp
+public int GetFPSFromDropdownIndex(int index)
+{
+    switch (index)
+    {
+        case 0: return 30;
+        case 1: return 60;
+        case 2: return 90;  // Nueva opción de 90 FPS
+        case 3: return 120;
+        case 4: return 0; // Unlock FPS
+        default: return 60;
+    }
+}
+
+public int GetDropdownIndexFromFPS(int fps)
+{
+    switch (fps)
+    {
+        case 30: return 0;
+        case 60: return 1;
+        case 90: return 2;  // Nueva opción de 90 FPS
+        case 120: return 3;
+        case 0: return 4; // Unlock FPS
+        default: return 1; // Default to 60 FPS
+    }
+}
+```
+
+Recuerda actualizar también las opciones en tu `TMP_Dropdown` en la UI de Unity para que coincidan con estos cambios.
+
+### Aplicar FPS automáticamente al cambiar el dropdown
+
+Si quieres que el FPS se aplique inmediatamente al cambiar el dropdown, puedes modificar el método `DropdownValueChanged`:
+
+```csharp
+public void DropdownValueChanged(TMP_Dropdown change)
+{
+    selectedFPS = GetFPSFromDropdownIndex(change.value);
+    ApplyFPSSetting(); // Aplica el FPS inmediatamente
+}
+```
+
+### Añadir un evento de cambio de FPS
+
+Si quieres notificar a otras partes de tu juego cuando cambia el FPS, puedes añadir un evento:
+
+```csharp
+public delegate void FPSChangedDelegate(int newFPS);
+public event FPSChangedDelegate OnFPSChanged;
+
+public void ApplyFPSSetting()
+{
+    SetFPS(selectedFPS);
+    OnFPSChanged?.Invoke(selectedFPS); // Invoca el evento
+}
+```
+
+Luego, en otros scripts, puedes suscribirte a este evento:
+
+```csharp
+void Start()
+{
+    FPSSelector fpsSelector = FindObjectOfType<FPSSelector>();
+    fpsSelector.OnFPSChanged += HandleFPSChanged;
+}
+
+void HandleFPSChanged(int newFPS)
+{
+    Debug.Log($"FPS changed to: {newFPS}");
+    // Realiza acciones basadas en el nuevo FPS
+}
+```
+
+### Guardar y cargar configuraciones personalizadas
+
+Puedes extender la funcionalidad para guardar configuraciones personalizadas:
+
+```csharp
+public void SaveCustomFPSSetting(string settingName, int fps)
+{
+    PlayerPrefs.SetInt($"CustomFPS_{settingName}", fps);
+}
+
+public int LoadCustomFPSSetting(string settingName)
+{
+    return PlayerPrefs.GetInt($"CustomFPS_{settingName}", 60); // Default to 60 if not found
+}
+```
+
+Estas modificaciones te permiten adaptar el script FPSSelector a las necesidades específicas de tu proyecto.
 
 ## Requisitos
 
