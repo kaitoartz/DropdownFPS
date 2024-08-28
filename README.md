@@ -17,7 +17,7 @@ Este repositorio contiene un script de C# diseñado para Unity (versión 2021.3.
 
 ![FPS Selector Script en el Inspector](.image/Ingame.png)
 
-*Vista del script FPS Selector en el Inspector de Unity*
+*Vista del script FPS Selector en game de Unity*
 
 ## Características
 - **Selección de FPS**: Los jugadores pueden elegir entre 30, 60, 120 FPS o desbloquear el FPS.
@@ -39,7 +39,7 @@ Este repositorio contiene un script de C# diseñado para Unity (versión 2021.3.
 
 Para que el script funcione correctamente, asegúrate de configurar los siguientes valores en el Inspector:
 
-![Configuración del FPS Selector en el Inspector](.image/DropdownValues.png)
+![Configuración del FPS Selector en el Inspector](.image/Dropdownvalues.png)
 
 *Configuración necesaria para el FPS Selector en el Inspector de Unity*
 
