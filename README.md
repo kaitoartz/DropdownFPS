@@ -1,5 +1,18 @@
 # FPS Selector for Unity
 
+👋 ¡Hola, desarrolladores de Unity! Soy [Tu Nombre], y estoy emocionado de compartir este proyecto contigo.
+
+🚀 **¿Quieres estar al día con mis próximos proyectos de Unity?** ¡Sígueme en mis redes sociales!
+
+- 🐦 Twitter: [@K41T0M](https://x.com/K41t0M)
+- 📷 Instagram: [@kaitoartzz](https://www.instagram.com/kaitoartzz/#)
+- 🎥 YouTube: [KaitoArtz](https://www.youtube.com/channel/UCUTRLuPwGw9LKCt8ictOaZA)
+- 🔗 LinkedIn: [Tu Perfil de LinkedIn](https://www.linkedin.com/in/TuPerfilDeLinkedIn)
+
+No te pierdas mis futuros proyectos y tutoriales que te ayudarán a mejorar tus habilidades en Unity. ¡Vamos a crear juegos increíbles juntos! 🎮✨
+
+---
+
 Este repositorio contiene un script de C# diseñado para Unity (versión 2021.3.15f1 o superior) que permite a los desarrolladores seleccionar y ajustar el framerate (FPS) de su juego de manera sencilla. Con este script, puedes ofrecer a los jugadores la opción de cambiar entre diferentes configuraciones de FPS a través de un menú desplegable en la UI.
 
 ## Características
