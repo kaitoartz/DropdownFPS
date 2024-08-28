@@ -34,5 +34,6 @@ Nos reservamos el derecho de actualizar estas Políticas de Privacidad en cualqu
 
 ## 7. Contacto
 
-Si tienes alguna pregunta o preocupación sobre estas Políticas de Privacidad, por favor contacta con nosotros a través de kaitoartz.info@gmail.com.
+Si tienes alguna pregunta o preocupación sobre estas Políticas de Privacidad, por favor contacta con nosotros a través de [<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](kaitoartz.info@gmail.com)
+.
 
