@@ -4,10 +4,10 @@
 
 🚀 **¿Quieres estar al día con mis próximos proyectos de Unity?** ¡Sígueme en mis redes sociales!
 
-- 🐦 Twitter: [@K41T0M](https://x.com/K41t0M)
-- 📷 Instagram: [@kaitoartzz](https://www.instagram.com/kaitoartzz/#)
-- 🎥 YouTube: [KaitoArtz](https://www.youtube.com/channel/UCUTRLuPwGw9LKCt8ictOaZA)
-- 🔗 LinkedIn: [Tu Perfil de LinkedIn](https://www.linkedin.com/in/TuPerfilDeLinkedIn)
+- [<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />](https://x.com/K41t0M)
+- [<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />](https://www.instagram.com/kaitoartzz/#)
+- [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/TuPerfil)
+- [<img src="https://img.shields.io/badge/daily.dev-CE3DF3?style=for-the-badge&logo=dailydotdev&logoColor=white" />](https://app.daily.dev/kaitoartz)
 
 No te pierdas mis futuros proyectos y tutoriales que te ayudarán a mejorar tus habilidades en Unity. ¡Vamos a crear juegos increíbles juntos! 🎮✨
 
