@@ -1,6 +1,6 @@
 # FPS Selector for Unity
 
-👋 ¡Hola, desarrolladores de Unity! Soy [Tu Nombre], y estoy emocionado de compartir este proyecto contigo.
+👋 ¡Hola, desarrolladores de Unity! Soy KaitoArtz, y estoy emocionado de compartir este proyecto contigo.
 
 🚀 **¿Quieres estar al día con mis próximos proyectos de Unity?** ¡Sígueme en mis redes sociales!
 
@@ -9,7 +9,7 @@
 - [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/TuPerfil)
 - [<img src="https://img.shields.io/badge/daily.dev-CE3DF3?style=for-the-badge&logo=dailydotdev&logoColor=white" />](https://app.daily.dev/kaitoartz)
 
-No te pierdas mis futuros proyectos y tutoriales que te ayudarán a mejorar tus habilidades en Unity. ¡Vamos a crear juegos increíbles juntos! 🎮✨
+No te pierdas mis futuros proyectos que ayudarán a tus proyectos en Unity.
 
 ---
 
