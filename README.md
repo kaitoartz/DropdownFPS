@@ -43,4 +43,8 @@ Puedes modificar el script para añadir o eliminar opciones de FPS según las ne
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo (LICENSE.md) para más detalles.
+
+## Políticas de Privacidad
+
+Este proyecto no recopila información personal ni técnica de los usuarios. Para más detalles, consulta nuestras [Políticas de Privacidad](POLICY.md).
